@@ -30,7 +30,6 @@ public class Empregado {
     }
     public void Imprimir(){
 // não entendi essa parte skksksksk
-
     }
   
 //calcula o irpf
