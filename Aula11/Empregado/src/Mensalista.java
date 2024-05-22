@@ -1,4 +1,5 @@
 public class Mensalista extends Empregado{
+    
     public String cargo;
 
     public String getCargo() {
