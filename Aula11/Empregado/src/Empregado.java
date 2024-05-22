@@ -30,6 +30,11 @@ public class Empregado {
     }
     public void Imprimir(){
 // não entendi essa parte skksksksk
+// agr entendi ksksksksk
+
+    System.out.println("Nome: " + getNome());
+    System.out.println("EnderecoNome:" + getEndereco());
+    System.out.println("Salario: " + getSalario());
     }
   
 //calcula o irpf
@@ -62,5 +67,6 @@ public class Empregado {
         return aux;
     }
 
+        
 
 }
