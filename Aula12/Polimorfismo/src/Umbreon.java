@@ -11,4 +11,7 @@ public class Umbreon extends Eevee{
     public String especial(){
         return "Dark Pulse";
     }
+    public Umbreon(String nome, String tipo, int altura, int HP, double peso){
+        super(nome,tipo,altura,HP,peso);
+    }
 }

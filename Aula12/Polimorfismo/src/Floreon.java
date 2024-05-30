@@ -11,4 +11,7 @@ public class Floreon extends Eevee{
     public String especial(){
         return "Last Resort";
     }
+    public Floreon(String nome, String tipo, int altura, int HP, double peso){
+        super(nome,tipo,altura,HP,peso);
+    }
 }

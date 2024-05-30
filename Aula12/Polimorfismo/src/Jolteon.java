@@ -14,4 +14,7 @@ public class Jolteon extends Eevee{
     public String especial(){
         return "Raio- Thunder";
     }
+    public Jolteon(String nome, String tipo, int altura, int HP, double peso){
+        super(nome,tipo,altura,HP,peso);
+    }
 }

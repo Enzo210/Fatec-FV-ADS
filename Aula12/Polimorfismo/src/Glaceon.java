@@ -11,4 +11,7 @@ public class Glaceon extends Eevee{
     public String especial(){
         return "Blizzard";
     }
+    public Glaceon(String nome, String tipo, int altura, int HP, double peso){
+        super(nome,tipo,altura,HP,peso);
+    }
 }

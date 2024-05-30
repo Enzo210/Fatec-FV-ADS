@@ -11,4 +11,7 @@ public class Vaporeon extends Eevee{
     public String especial(){
         return "Hydro Pump";
     }
+    public Vaporeon(String nome, String tipo, int altura, int HP, double peso){
+        super(nome,tipo,altura,HP,peso);
+    }
 }
