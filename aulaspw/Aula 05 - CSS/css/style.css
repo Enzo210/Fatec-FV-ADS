@@ -1,0 +1,16 @@
+:root{
+    --cor-destaque:#ff5733;
+    --tamanho-fonte:30px;
+}
+.h2{
+    font-size: var(--tamanho-fonte);
+    color: var(--cor-destaque);
+}
+.h4{
+    font-size: var(--tamanho-fonte);
+    color: var(--cor-destaque);
+}
+.p{
+    font-size: 28px;
+    color: aquamarine;
+}
