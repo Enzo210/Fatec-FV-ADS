@@ -1,16 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 :root{
     --cor-destaque:#ff5733;
     --tamanho-fonte:30px;
 }
-.h2{
+
+*{
+    font-family: 'Protest Guerrilla', Helvetica, sans-serif;
+}
+h2{
     font-size: var(--tamanho-fonte);
     color: var(--cor-destaque);
 }
-.h4{
+h4{
     font-size: var(--tamanho-fonte);
     color: var(--cor-destaque);
 }
-.p{
+p{
     font-size: 28px;
     color: aquamarine;
+}
+
+#diva_porc{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+#diva_cm{
+    width: 300cm;
+    height: 300cm;
+    background-color: yellow;
+}
+#diva_mm{
+    width: 300mm;
+    height: 300mm;
+    background-color: black;
+}
+
+#diva_in{
+    width: 300in;
+    height: 300in;
+    background-color: purple;
+}
+
+#divo_porc{
+    width: 25%;
+    height: 100px;
+    background-color: aqua;
+
+}
+#divo_em{
+    width: 25%;
+    height: 100px;
+    background-color: yellow;
+    font-size:2.0rem;
+}
+#divo_rem{
+    width: 25%;
+    height: 100px;
+    background-color: purple;
+    font-size:5.0rem;
+}
+
+#divo_vh{
+    width: 100px;
+    height: 25vh;
+
+}
+#divo_vw{
+    width: 25vw;
+    height: 100px;
 }
