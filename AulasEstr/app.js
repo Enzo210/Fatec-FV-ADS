@@ -117,3 +117,4 @@ console.log(n_aleatorio);
 n_aleatorio.sort()
 console.log(n_aleatorio);
 n_aleatorio.reverse()
+
