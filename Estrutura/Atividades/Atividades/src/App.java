@@ -14,10 +14,16 @@ public class App {
 
         // double media = (A * 2 + B * 3 + C * 5) / (2 + 3+ 5);
         // System.out.printf("MEDIA = %.1f\n", media);        
+    
+        // int X = scanner.nextInt();
+        // Double Y = scanner.nextDouble();
+        // Double km = X / Y ;
+        // System.out.printf("%.3f km/l\n", km);
 
-        int X = scanner.nextInt();
-        Double Y = scanner.nextDouble();
-        Double km = X * Y ;
-        System.out.println(km+ " km/l");
+        Double num = scanner.nextDouble();
+        Double num2 = scanner.nextDouble();
+        Double PROD = num * num2;
+        System.out.printf("PROD = %.1f%\n"+PROD);
+
     }
 }
