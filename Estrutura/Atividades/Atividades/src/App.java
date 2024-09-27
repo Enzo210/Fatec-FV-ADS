@@ -24,6 +24,6 @@ public class App {
         Double num2 = scanner.nextDouble();
         Double PROD = num * num2;
         System.out.printf("PROD = %.1f%\n"+PROD);
-
+        
     }
 }
