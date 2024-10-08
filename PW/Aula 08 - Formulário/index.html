@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(css/style.css);
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Matricula dos alunos</h1>
+        <form id="matriculaForm">
+            <div class="form-group">
+                <label>Nome Completo*: </label>
+                <input type="text" id="txt_nome" required>
+            </div>
+            <div>
+                <label>Data Nascimento*: </label>
+                <input type="date" id="txt_nascimento" required>
+            </div>
+            <div class="form-group">
+                <label>Genero</label>
+                <select id="sel_genero">
+                    <option value="" disabled selected>Selecione um Genero:</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="Indefinido">Prefiro Não dizer</option>
+                </select>
+            </div>
+            <div class="form-group"> 
+                <label>Curso</label>
+                <select class="sel_curso">
+                <option value="" disabled selected>Selecione um curso</option>
+                <option value="ads">Analise e Desenvolvimento de Sistemas</option>
+                <option value="gpi">Gestão da produção industrial</option>
+                <option value="ge">Gestao empresarial</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="txt_email" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
