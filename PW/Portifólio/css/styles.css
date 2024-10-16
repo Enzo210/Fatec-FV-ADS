@@ -1,0 +1,288 @@
+:root {
+    --primary-color: #9db6c6; 
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #566f7d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #092b5a;
+    margin-top: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section i{
+    color: #092b5a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article {
+    margin: 10px 0;
+}
+
+article h3 {
+    margin: 0;
+}
+
+article p {
+    margin: 5px 0;
+}
+
+a {
+    color: #092b5a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #566f7d;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #566f7d;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    ul li {
+        padding: 8px;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    section {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    ul li {
+        padding: 5px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}
+
+
+/* 
+.doctors__card {
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+  
+  }
+  
+  .doctors__card__image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 350px;
+    background-color: aqua;
+    
+  }
+  
+
+  
+
+
+  
+  .doctors__socials span {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    background-color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  
+.container_card{
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+  } */
+
+
+.container_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.doctors__card {
+    position: relative; /* Permite que os ícones sejam posicionados em relação a este elemento */
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #6e8795;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 200px;
+    height: auto; /* Ajuste automático da altura */
+}
+.doctors__card__image {
+    position: relative; /* Para que os ícones sejam posicionados em relação à imagem */
+    overflow: hidden;
+    width: 100%;
+}
+.doctors__card__image img {
+    width: 100%; /* Garante que a imagem se ajuste ao card */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.doctors__socials {
+    position: absolute;
+    left: 0;
+    bottom: -4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: 0.5s;
+  }
+  .doctors__socials span {
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    background-color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  .doctors__socials span > a {
+    text-decoration: none;
+    color: var(--text-dark);
+  }
+  
+  
+  .doctors__socials span > a:hover {
+    color: var(--primary-color);
+  }
+  
+  .doctors__card:hover .doctors__socials {
+    bottom: 2rem;
+  }
+  .doctors__card h4 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .doctors__card p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+  .icond {
+    width: 100px; /* Define a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 10px; /* Espaçamento ao redor da imagem */
+    transition: transform 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.icond:hover {
+    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Exibir itens lado a lado */
+    flex-wrap: wrap; /* Permitir quebra de linha */
+    justify-content: center;
+    
+}
+
+ul li {
+    background: #e9ecef;
+    margin: 5px 10px; /* Espaçamento entre os itens */
+    padding: 25px;
+    border-radius: 5px;
+    display: flex; /* Para alinhar o conteúdo */
+    flex-direction: column; /* Coluna para imagem e estrelas */
+    align-items: center; /* Centraliza o conteúdo */
+}
+
+.stars {
+    display: flex; /* Alinha as estrelas em linha */
+    margin-top: 5px; /* Espaçamento entre a imagem e as estrelas */
+}
+
