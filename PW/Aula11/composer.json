@@ -1,0 +1,16 @@
+{
+    "name": "aula11/avc",
+    "description": "Aula sobre API em PHP",
+    "autoload": {
+        "psr-4": {
+            "Aula11\\Avc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enzo Sampaio",
+            "email": "enzosiqueira22@gmail.com"
+        }
+    ],
+    "require": {}
+}
